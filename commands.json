@@ -211,7 +211,7 @@
     {
         "Command_type":"Miscellaneous Commands",
         "list": [{
-                "register": "userinfo",
+                "name": "userinfo",
                 "description": "get the info about a user"
             },
             {
