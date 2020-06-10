@@ -163,7 +163,7 @@
             },
             {
                 "name": "coinflip",
-                "description": "flips a coin, if you win you get 10 points, if you lose you lose 10 points"
+                "description": "flips a coin"
             },
             {
                 "name": "claim",
@@ -179,7 +179,7 @@
             },
 	    {
                 "name": "​roll",
-                "description": "roll a dice, if you win you get 30 points, if you lose you lose 10 points"
+                "description": "roll a dice"
             }
 
         ]
