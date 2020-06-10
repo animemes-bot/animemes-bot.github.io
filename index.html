@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--================================ META ================================-->
+    <meta charset="UTF-8">
+    <title>Animemes</title>
+    <meta name="description" content="Plymouth's Premiere Nightlife Photography">
+    <meta name="author" content="Two Coast Media">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--================================ LINKED RESOURCES ================================-->
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logo.png">
+    <!--================================ CSS ================================-->
+    <link href="css/bulma.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+</head>
+<style>
+    @font-face {
+  font-family: dropbox;
+  src: url('./fonts/sharpdb.woff2');
+}
+*{
+    font-family:dropbox ;
+    font-size:small;
+}
+    body{
+        background-image: url('./images/bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    section:first-child {
+        background-color: #b12b55e8 !important;
+    }
+</style>
+<body>
+    <section class="hero is-black is-fullheight">
+        <main class="hero-body" style="background:transparent;">
+            <div class="container has-text-centered">
+                    <img class="animated jello" src="images/logo.png" alt="ANIMEMES" style="margin: auto;width: 150px;">
+                <h1 class="animated infinite pulse title is-2">ANIMEMES
+                    <span class="tag is-black animated bounce">BOT</span>
+                </h1>
+                <p class="subtitle">
+                    A Discord Bot for anime and memes. 
+                </p>
+                <hr>
+                <h3 class="subtitle is-4">
+                    A multi-purpose bot with the main features being custom anime memes, read manga from Discord itself <span>(without any ads!)</span>, watch anime and lots more!
+                    <br>
+                    • If you're a fan of anime or a weeb in general, this is the bot for you! •
+                </h3>
+                <hr>
+                <div class="hero-buttons">
+                    <a href="https://bit.ly/InviteAnimemes" class="animated pulse infinite button is-danger is-inverted is-medium">
+                        <span>invite bot to your server</span>
+                        <span class="icon">
+                            <i class="fa fa-sign-out-alt"></i>
+                        </span>
+                    </a>
+                    <a class="animated pulse infinite button is-danger is-inverted is-medium" onclick="document.getElementById('cmds').style.display = document.getElementById('cmds').style.display == '-webkit-box' ? 'none' : '-webkit-box'">
+                        <span>bot commands</span>
+                        <span class="icon">
+                            <i class="fa fa-cog"></i>
+                        </span>
+                    </a>
+                    <a href="https://discord.gg/XXH82nX" class="animated pulse infinite button is-danger is-inverted is-medium">
+                        <span>Join bot's Support Server</span>
+                        <span class="icon">
+                            <i class="fa fa-sign-out-alt"></i>
+                        </span>
+                    </a>
+                    <a href="https://www.patreon.com/AnimemesBot" class="animated pulse infinite button is-danger is-inverted is-medium">
+                        <span>Buy Us A Coffee</span>
+                        <span class="icon">
+                            <i class="fab fa-patreon"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <div class="hero-foot">
+            <div class="container">
+                <div class="level">
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="title">users count</p>
+                            <p class="title">10000+</p>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="title">weeb level</p>
+                            <p class="title">9000+</p>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="title">server count</p>
+                            <p class="title">75+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+    <div class="modal" id="cmds">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            <header class="modal-card-head">
+                <p class="modal-card-title">BOT Commands</p>
+                <button class="delete" aria-label="close"
+                    onclick="document.getElementById('cmds').style.display = document.getElementById('cmds').style.display == 'none' ? '-webkit-box' : 'none'"></button>
+            </header>
+            <section class="modal-card-body">
+                <nav class="panel" id="modalbody">
+                    
+                </nav>
+            </section>
+            <footer class="modal-card-foot">
+                <!-- <p class="tag subtitle is-warning">Use Prefix ~ with following commands [new commands coming soon.]</p> -->
+            </footer>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="loadcommands.js"></script>
+</body>
+</html>
