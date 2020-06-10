@@ -79,6 +79,14 @@
             {
                 "name": "divorce",
                 "description": "divorce a user"
+            },
+	    {
+                "name": "insult",
+                "description": "insult a user"
+            },
+	    {
+                "name": "question",
+                "description": "answer random trivia correctly for 25 points"
             }
         ]
     },
@@ -126,14 +134,27 @@
             },
             {
                 "name": "​highfive",
-                "description": " highfive a user / cry _ you start crying"
+                "description": " highfive a user"
+            },
+	    {
+                "name": "​cry",
+                "description": "you start crying"
+            },
+	    {
+                "name": "​tickle",
+                "description": "you tickle a user"
+            },
+	    {
+                "name": "​poke",
+                "description": "you poke a user"
             }
+		
         ]
     },
     {
         "Command_type":"Economy Commands",
         "list": [{
-                "register": "register",
+                "name": "register",
                 "description": "register with the animemes bank"
             },
             {
@@ -155,7 +176,12 @@
             {
                 "name": "​leaderboard",
                 "description": "posts top 10 users with the most points"
+            },
+	    {
+                "name": "​roll",
+                "description": "roll a dice, if you win you get 30 points, if you lose you lose 10 points"
             }
+
         ]
     },
     {
